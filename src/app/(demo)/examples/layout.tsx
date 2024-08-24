@@ -9,7 +9,7 @@ export default function ExamplesLayout({ children }: Props) {
   return (
     <div>
       <nav>
-        <Link href="/examples/dashboard">Dashboard</Link>
+        <Link href="/examples/dashboard">Dashboard</Link>{" "}
         <Link href="/examples/aboutus">About us</Link>
       </nav>
       {children}
